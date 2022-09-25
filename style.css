@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding-left: 50px; 
+    justify-content: space-between;
+     align-items: center; 
+    padding: 20px;
+    }
+
+.grow-list{
+    position: absolute;
+    left: 12%;
+    display: flex;
+}
+.line{
+width: 1px;
+height: 50px;
+background-color: white;
+margin: 35px 35px;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+}
+.list-item{
+    text-align: center;
+    margin: auto;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 24px;
+}
+.buy-token{
+margin-right: 50px;
+}
+.button-small{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: bold;
+    border-radius: 10px;
+    background-color: #8D3DAF;
+    color: white;
+    cursor: pointer;
+}
+.hero{
+    background-image: url("./assets/bg.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+.text-container{
+    color: white;
+     text-align: center;
+     /* position: fixed; */
+}
+.hero-heading{
+    font-size: 100px;
+    padding-top: 120px;
+    word-spacing: 35px;
+}
+.hero-description{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    /* font-family: bold; */
+    font-style: bold;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+.large{
+    margin-top: 80px;
+    padding: 20px 35px !important;
+    font-size: 25px !important;
+    cursor: pointer; 
+}
